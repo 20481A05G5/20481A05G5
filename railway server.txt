@@ -1,0 +1,43 @@
+import React from "react";
+const App=()=>{
+  return(
+    <html>
+      <head>
+        <title>
+          welcome Afforemed
+        </title>
+      </head>
+      <body>
+        <center>
+        
+          <h1>Register Railway Server</h1>
+          <table border="1">
+          <tr>
+            <td><label>CompanyName</label></td>
+            <td><input type="text" name="name"></input></td>
+
+          </tr>
+          <tr>
+            <td><label>OwnerName</label></td>
+            <td><input type="text" name="name"></input></td>
+          </tr>
+          <tr>
+            <td><label>rollNo</label></td>
+            <td><input type="text" name="aaa"></input></td>
+          </tr>
+          <tr>
+            <td><label>ownerEmail</label></td>
+            <td><input type="mail" name="email"></input></td>
+          </tr>
+          <tr>
+            <td><label>accessCode</label></td>
+            <td><input type="password" name="name"></input></td>
+          </tr>
+        </table>
+        </center>
+      </body>
+    </html>
+    );
+};
+
+export default App;

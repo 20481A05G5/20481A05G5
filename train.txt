@@ -1,0 +1,47 @@
+import React from "react";
+const App=()=>{
+  return(
+    <html>
+      <head>
+        <title>
+          welcome Afforemed
+        </title>
+      </head>
+      <body>
+        <center>
+        
+          <h1>Railway Booking System</h1>
+          <table border="1">
+          <tr>
+            <td><label>trainName</label></td>
+            <td><input type="text" name="name"></input></td>
+
+          </tr>
+          <tr>
+            <td><label>trainNumber</label></td>
+            <td><input type="text" name="name"></input></td>
+          </tr>
+          <tr>
+            <td><label>departureTime</label></td>
+            <td><input type="time" name="aaa"></input></td>
+          </tr>
+          <tr>
+            <td><label>seatsAvailable</label></td>
+            <td><input type="number" name="email"></input></td>
+          </tr>
+          <tr>
+            <td><label>price</label></td>
+            <td><input type="number" name="name"></input></td>
+          </tr>
+          <tr>
+            <td><label>delayedBy</label></td>
+            <td><input type="number" name="name"></input></td>
+          </tr>
+        </table>
+        </center>
+      </body>
+    </html>
+    );
+};
+
+export default App;
